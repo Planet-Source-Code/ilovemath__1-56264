@@ -1,0 +1,91 @@
+[Root]
+Most Recent Package=ILoveMath
+
+
+[Package|ILoveMath|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\Dojoo\Visual Basic\IloveMath\ILoveMath Setup
+
+[Package|ILoveMath|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ILoveMath|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ILoveMath|Files Found]
+
+[Package|ILoveMath|Files Released]
+
+[Package|ILoveMath|Missing Dependency Information]
+
+[Package|ILoveMath|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|ILoveMath|Files Added]
+
+[Package|ILoveMath|Files Removed]
+
+[Package|ILoveMath|Files In Project]
+G:\Dojoo\Visual Basic\IloveMath\ILoveMath II\I Love Math.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|ILoveMath|Configure Registry Files]
+Applicable=No
+
+[Package|ILoveMath|Configure Remote Servers]
+Applicable=No
+
+[Package|ILoveMath|Install Locations]
+G:\Dojoo\Visual Basic\IloveMath\ILoveMath II\I Love Math.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|ILoveMath|Configure Shared Files]
+Applicable=Yes
+G:\Dojoo\Visual Basic\IloveMath\ILoveMath II\I Love Math.exe=No
+
+[Package|ILoveMath|Distribution]
+Type=single
+Size=
+Title=ILoveMath
+
+[Package|ILoveMath|IconGroups]
+Group0=ILoveMath
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|ILoveMath|ILoveMath]
+Icon1="I Love Math.exe"
+Title1=ILoveMath
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ILoveMath|Package]
+PackageFolder=G:\Dojoo\Visual Basic\IloveMath\ILoveMath Setup
+ProjectFolder=G:\Dojoo\Visual Basic\IloveMath\ILoveMath II
+ServerSideCab=
+File1=G:\Dojoo\Visual Basic\IloveMath\ILoveMath Setup\setup.exe
+File2=G:\Dojoo\Visual Basic\IloveMath\ILoveMath Setup\Setup.Lst
+File3=G:\Dojoo\Visual Basic\IloveMath\ILoveMath Setup\I Love Math.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
